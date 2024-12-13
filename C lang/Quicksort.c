@@ -50,7 +50,6 @@ int main()
     int arr[] = {10,80,30,90,40};
     int n = sizeof(arr)/sizeof(arr[0]);
     printarray(arr,n);
-    
     QuickSort(arr,0,n-1);
     printf("The sorted array is\n");
     printarray(arr,n);
